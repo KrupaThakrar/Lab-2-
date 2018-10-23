@@ -1,0 +1,32 @@
+#nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+transition: width 2s;
+
+}
+#nav li {
+float:left;
+
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none;
+transition: width 2s, height 4s;
+}
+
+body{
+  background: lightblue;
+}
+
+h1{
+  font: verdana;
+  font-size: 60px;
+  color: red;
+}
+
+p{
+  font-size: 30px;
+}
